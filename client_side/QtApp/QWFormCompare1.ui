@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QWFormCompare1</class>
+ <widget class="QWidget" name="QWFormCompare1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>554</width>
+    <height>530</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="leftMargin">
+    <number>20</number>
+   </property>
+   <property name="topMargin">
+    <number>20</number>
+   </property>
+   <property name="rightMargin">
+    <number>20</number>
+   </property>
+   <property name="bottomMargin">
+    <number>15</number>
+   </property>
+   <property name="horizontalSpacing">
+    <number>20</number>
+   </property>
+   <property name="verticalSpacing">
+    <number>8</number>
+   </property>
+   <item row="0" column="0" colspan="3">
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <property name="bottomMargin">
+      <number>15</number>
+     </property>
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="font">
+        <font>
+         <pointsize>13</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="text">
+        <string>    Target Vehicle:    </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineTarget">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLineEdit{
+	border: 2px groove gray;
+	border-radius: 22px;
+	padding: 2px 4px;
+	color: rgb(0, 0, 0);
+	border-color: rgb(0, 100, 0);
+}</string>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="1">
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <property name="spacing">
+      <number>25</number>
+     </property>
+     <item>
+      <widget class="QPushButton" name="btnSetTarget">
+       <property name="minimumSize">
+        <size>
+         <width>200</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>450</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>11</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	color: black;
+	background-color: rgb(250, 250, 250);
+	border: 1.5px;
+	border-color: rgb(100, 100, 100);
+	border-radius: 25px;
+	padding: 4px 4px;
+	border-style: solid;
+}
+
+QPushButton:hover{
+	color: Black;
+	font-size: 12pt;
+	padding: 3px 4px;
+	border-color: rgb(150, 150, 150);
+	background-color: rgb(225, 255, 255);
+}
+
+QPushButton:pressed{
+	color: Black;
+	font-size: 11pt;
+	padding: 3px 4px;
+	border-color: rgb(100, 100, 100);
+	background-color: rgb(195, 255, 255);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Set Target</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnSelAll">
+       <property name="minimumSize">
+        <size>
+         <width>200</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>450</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	color: black;
+	background-color: rgb(250, 250, 250);
+	border: 1.5px;
+	border-color: rgb(100, 100, 100);
+	border-radius: 25px;
+	padding: 4px 4px;
+	border-style: solid;
+}
+
+QPushButton:hover{
+	color: Black;
+	font-size: 12pt;
+	padding: 3px 4px;
+	border-color: rgb(150, 150, 150);
+	background-color: rgb(225, 255, 255);
+}
+
+QPushButton:pressed{
+	color: Black;
+	font-size: 11pt;
+	padding: 3px 4px;
+	border-color: rgb(100, 100, 100);
+	background-color: rgb(195, 255, 255);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Select All</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnRemove">
+       <property name="minimumSize">
+        <size>
+         <width>200</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>450</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	color: black;
+	background-color: rgb(250, 250, 250);
+	border: 1.5px;
+	border-color: rgb(100, 100, 100);
+	border-radius: 25px;
+	padding: 4px 4px;
+	border-style: solid;
+}
+
+QPushButton:hover{
+	color: Black;
+	font-size: 12pt;
+	padding: 3px 4px;
+	border-color: rgb(150, 150, 150);
+	background-color: rgb(225, 255, 255);
+}
+
+QPushButton:pressed{
+	color: Black;
+	font-size: 11pt;
+	padding: 3px 4px;
+	border-color: rgb(100, 100, 100);
+	background-color: rgb(195, 255, 255);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Remove</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnRemoveAll">
+       <property name="minimumSize">
+        <size>
+         <width>200</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>450</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	color: black;
+	background-color: rgb(250, 250, 250);
+	border: 1.5px;
+	border-color: rgb(100, 100, 100);
+	border-radius: 25px;
+	padding: 4px 4px;
+	border-style: solid;
+}
+
+QPushButton:hover{
+	color: Black;
+	font-size: 12pt;
+	padding: 3px 4px;
+	border-color: rgb(150, 150, 150);
+	background-color: rgb(225, 255, 255);
+}
+
+QPushButton:pressed{
+	color: Black;
+	font-size: 11pt;
+	padding: 3px 4px;
+	border-color: rgb(100, 100, 100);
+	background-color: rgb(195, 255, 255);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Remove All</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnAdd">
+       <property name="minimumSize">
+        <size>
+         <width>200</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>450</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>11</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	color: black;
+	background-color: rgb(250, 250, 250);
+	border: 1.5px;
+	border-color: rgb(100, 100, 100);
+	border-radius: 25px;
+	padding: 4px 4px;
+	border-style: solid;
+}
+
+QPushButton:hover{
+	color: Black;
+	font-size: 12pt;
+	padding: 3px 4px;
+	border-color: rgb(150, 150, 150);
+	background-color: rgb(225, 255, 255);
+}
+
+QPushButton:pressed{
+	color: Black;
+	font-size: 11pt;
+	padding: 3px 4px;
+	border-color: rgb(100, 100, 100);
+	background-color: rgb(195, 255, 255);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Add</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="2">
+    <widget class="QListWidget" name="lw_tbCompared">
+     <property name="maximumSize">
+      <size>
+       <width>750</width>
+       <height>16777215</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QListWidget" name="lw_all">
+     <property name="maximumSize">
+      <size>
+       <width>750</width>
+       <height>16777215</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="2">
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <property name="topMargin">
+      <number>10</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QToolButton" name="btnCompare">
+       <property name="minimumSize">
+        <size>
+         <width>200</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>450</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+         <underline>false</underline>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QToolButton{
+	color: black;
+	background-color: rgb(250, 250, 250);
+	border: 1.5px;
+	border-color: rgb(100, 100, 100);
+	border-radius: 25px;
+	padding: 4px 4px;
+	border-style: solid;
+}
+
+QToolButton:hover{
+	color: Black;
+	font-size: 12pt;
+	padding: 3px 4px;
+	border-color: rgb(150, 150, 150);
+	background-color: rgb(225, 255, 255);
+}
+
+QToolButton:pressed{
+	color: Black;
+	font-size: 11pt;
+	padding: 3px 4px;
+	border-color: rgb(100, 100, 100);
+	background-color: rgb(195, 255, 255);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>&gt;&gt;&gt;Compare</string>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>16</width>
+         <height>16</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>btnSelAll</sender>
+   <signal>clicked()</signal>
+   <receiver>lw_all</receiver>
+   <slot>selectAll()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>229</x>
+     <y>121</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>99</x>
+     <y>172</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

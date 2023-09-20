@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>images/icons/car-Medium.png</file>
+        <file>images/icons/data, graph, trend-Medium.png</file>
+        <file>images/icons/data, graph-Medium.png</file>
+        <file>images/icons/files.png</file>
+        <file>images/icons/select.png</file>
+        <file>images/icons/set up-Medium.png</file>
+        <file>images/icons/weigh-Medium.png</file>
+        <file>images/V60/V60_background.png</file>
+        <file>images/icons/Volvo Car Logo CMYK_ jpg-Small.png</file>
+        <file>images/icons/alter.png</file>
+        <file>images/icons/alter2.png</file>
+        <file>images/icons/change.png</file>
+        <file>images/icons/weigh-Medium-blue.png</file>
+        <file>images/icons/data, graph, trend-Medium-blue.png</file>
+        <file>images/icons/data, graph-Medium-blue.png</file>
+        <file>images/icons/task-Medium-blue.png</file>
+    </qresource>
+</RCC>

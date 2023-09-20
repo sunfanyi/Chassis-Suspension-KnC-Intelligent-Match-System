@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QWFormResult1</class>
+ <widget class="QWidget" name="QWFormResult1">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>70</y>
+     <width>500</width>
+     <height>238</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>500</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="whatsThis">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="overall">
+    <attribute name="title">
+     <string>Overall</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QTreeWidget" name="tree_overall">
+       <property name="font">
+        <font>
+         <family>Microsoft YaHei UI</family>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <column>
+        <property name="text">
+         <string>Tests</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Similarity (%)</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="test1">
+    <attribute name="title">
+     <string>Long. braking</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="0" column="0">
+      <widget class="QTreeWidget" name="tree_test1">
+       <column>
+        <property name="text">
+         <string>Parameters</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Similarity (%)</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="test2">
+    <attribute name="title">
+     <string>Lat. 0_in</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_3">
+     <item row="0" column="0">
+      <widget class="QTreeWidget" name="tree_test2">
+       <column>
+        <property name="text">
+         <string>Parameters</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Similarity (%)</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="test3">
+    <attribute name="title">
+     <string>Lat. 0_anti</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_4">
+     <item row="0" column="0">
+      <widget class="QTreeWidget" name="tree_test3">
+       <column>
+        <property name="text">
+         <string>Parameters</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Similarity (%)</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="test4">
+    <attribute name="title">
+     <string>Lat. -30_in</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_5">
+     <item row="0" column="0">
+      <widget class="QTreeWidget" name="tree_test4">
+       <column>
+        <property name="text">
+         <string>Parameters</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Similarity (%)</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="test5">
+    <attribute name="title">
+     <string>Alig. T_in</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_6">
+     <item row="0" column="0">
+      <widget class="QTreeWidget" name="tree_test5">
+       <column>
+        <property name="text">
+         <string>Parameters</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Similarity (%)</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="test6">
+    <attribute name="title">
+     <string>Alig. T_anti</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_7">
+     <item row="0" column="0">
+      <widget class="QTreeWidget" name="tree_test6">
+       <column>
+        <property name="text">
+         <string>Parameters</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Similarity (%)</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="test7">
+    <attribute name="title">
+     <string>Steering</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_8">
+     <item row="0" column="0">
+      <widget class="QTreeWidget" name="tree_test7">
+       <column>
+        <property name="text">
+         <string>Parameters</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Similarity (%)</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="test8">
+    <attribute name="title">
+     <string>Roll</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_9">
+     <item row="0" column="0">
+      <widget class="QTreeWidget" name="tree_test8">
+       <column>
+        <property name="text">
+         <string>Parameters</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Similarity (%)</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="test10">
+    <attribute name="title">
+     <string>Vertical</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_10">
+     <item row="0" column="0">
+      <widget class="QTreeWidget" name="tree_test10">
+       <column>
+        <property name="text">
+         <string>Parameters</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Similarity (%)</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="strapped">
+    <attribute name="title">
+     <string>Long. acc</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_11">
+     <item row="0" column="0">
+      <widget class="QTreeWidget" name="tree_strapped">
+       <column>
+        <property name="text">
+         <string>Parameters</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Similarity (%)</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>0</y>
+     <width>108</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+	border: 2px groove gray;
+	border-radius: 22px;
+	padding: 2px 4px;
+	color: rgb(0, 0, 0);
+	border-color: rgb(0, 100, 0);
+}</string>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <action name="actSelect">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icons/images/icons/select.png</normaloff>:/icons/images/icons/select.png</iconset>
+   </property>
+   <property name="text">
+    <string>Select</string>
+   </property>
+   <property name="toolTip">
+    <string>Select to see details</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

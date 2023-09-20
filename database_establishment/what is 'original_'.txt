@@ -1,0 +1,8 @@
+Files starting with 'original_' are irrelevent to the main program. It only stores the unprocessed data to the summary data
+excel, which is for displaying only.
+
+
+What's the difference between the processed version of summary data excel?
+- Wheel Centre Compliance & Wheel Centre Stiffness are recorded separately.
+- Anti-Dive/Squat Curve Fits & Anti-Dive Front/Anti-Lift Rear Curve Fits are recorded separately.
+- No need to find the inverse of Steering Ratio.

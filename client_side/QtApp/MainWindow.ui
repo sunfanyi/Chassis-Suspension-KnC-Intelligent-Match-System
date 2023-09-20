@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1600</width>
+    <height>1000</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="baseSize">
+    <size>
+     <width>2</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>Microsoft Himalaya</family>
+     <pointsize>22</pointsize>
+    </font>
+   </property>
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="movable">
+    <bool>false</bool>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>70</width>
+     <height>70</height>
+    </size>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextUnderIcon</enum>
+   </property>
+   <property name="floatable">
+    <bool>false</bool>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>LeftToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actWelcome"/>
+   <addaction name="actImport"/>
+   <addaction name="separator"/>
+   <addaction name="separator"/>
+   <addaction name="actMode"/>
+   <addaction name="separator"/>
+   <addaction name="actSetWeight1"/>
+   <addaction name="actCompare1"/>
+   <addaction name="actResult1"/>
+   <addaction name="actSetTarget"/>
+   <addaction name="actSetWeight2"/>
+   <addaction name="actCompare2"/>
+   <addaction name="actResult2"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actSetWeight1">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icons/images/icons/weigh-Medium.png</normaloff>:/icons/images/icons/weigh-Medium.png</iconset>
+   </property>
+   <property name="text">
+    <string>    Weight    </string>
+   </property>
+   <property name="toolTip">
+    <string>Set weight for each parameter to compare similarities between vehicles.</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Microsoft Himalaya</family>
+     <pointsize>24</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actWelcome">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icons/images/icons/car-Medium.png</normaloff>:/icons/images/icons/car-Medium.png</iconset>
+   </property>
+   <property name="text">
+    <string>Welcome</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Microsoft Himalaya</family>
+     <pointsize>24</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actImport">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icons/images/icons/files.png</normaloff>:/icons/images/icons/files.png</iconset>
+   </property>
+   <property name="text">
+    <string>    Import    </string>
+   </property>
+   <property name="toolTip">
+    <string>Import vehicles</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Microsoft Himalaya</family>
+     <pointsize>24</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actCompare1">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icons/images/icons/data, graph-Medium.png</normaloff>:/icons/images/icons/data, graph-Medium.png</iconset>
+   </property>
+   <property name="text">
+    <string>Compare</string>
+   </property>
+   <property name="toolTip">
+    <string>Compare similarities between vehicles</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Microsoft Himalaya</family>
+     <pointsize>24</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actResult1">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icons/images/icons/data, graph, trend-Medium.png</normaloff>:/icons/images/icons/data, graph, trend-Medium.png</iconset>
+   </property>
+   <property name="text">
+    <string>    Result    </string>
+   </property>
+   <property name="toolTip">
+    <string>Display result</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Microsoft Himalaya</family>
+     <pointsize>24</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actMode">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icons/images/icons/change.png</normaloff>:/icons/images/icons/change.png</iconset>
+   </property>
+   <property name="text">
+    <string>Reliability</string>
+   </property>
+   <property name="toolTip">
+    <string>Change the evaluation mode</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Microsoft Himalaya</family>
+     <pointsize>24</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actSetTarget">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icons/images/icons/task-Medium-blue.png</normaloff>:/icons/images/icons/task-Medium-blue.png</iconset>
+   </property>
+   <property name="text">
+    <string>Target</string>
+   </property>
+   <property name="toolTip">
+    <string>Set target value for each parameter.</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Microsoft Himalaya</family>
+     <pointsize>24</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actSetWeight2">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icons/images/icons/weigh-Medium-blue.png</normaloff>:/icons/images/icons/weigh-Medium-blue.png</iconset>
+   </property>
+   <property name="text">
+    <string>Weight</string>
+   </property>
+   <property name="toolTip">
+    <string>Set weight for each parameter to find how close the vehicle data is to the target data.</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Microsoft Himalaya</family>
+     <pointsize>24</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actCompare2">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icons/images/icons/data, graph-Medium-blue.png</normaloff>:/icons/images/icons/data, graph-Medium-blue.png</iconset>
+   </property>
+   <property name="text">
+    <string>Compare</string>
+   </property>
+   <property name="toolTip">
+    <string>Find how close the vehicle data is to the target data.</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Microsoft Himalaya</family>
+     <pointsize>24</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actResult2">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icons/images/icons/data, graph, trend-Medium-blue.png</normaloff>:/icons/images/icons/data, graph, trend-Medium-blue.png</iconset>
+   </property>
+   <property name="text">
+    <string>Result</string>
+   </property>
+   <property name="toolTip">
+    <string>Display result</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Microsoft Himalaya</family>
+     <pointsize>24</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

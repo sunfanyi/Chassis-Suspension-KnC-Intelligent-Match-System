@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QWFormResult2</class>
+ <widget class="QWidget" name="QWFormResult2">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1600</width>
+    <height>1000</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>110</y>
+     <width>500</width>
+     <height>238</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>500</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="whatsThis">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="overall">
+    <attribute name="title">
+     <string>Overall</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QTreeWidget" name="tree_overall">
+       <property name="font">
+        <font>
+         <family>Microsoft YaHei UI</family>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <column>
+        <property name="text">
+         <string>Test Conditions</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Reliability_F (%)</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Reliability_R (%)</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="general">
+    <attribute name="title">
+     <string>General</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="0" column="0">
+      <widget class="QTreeWidget" name="tree_general">
+       <column>
+        <property name="text">
+         <string>Parameters</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Reliability_F (%)</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Reliability_R (%)</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="longi">
+    <attribute name="title">
+     <string>Longitudinal</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_3">
+     <item row="0" column="0">
+      <widget class="QTreeWidget" name="tree_longi">
+       <column>
+        <property name="text">
+         <string>Parameters</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Reliability_F (%)</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Reliability_R (%)</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="lateral">
+    <attribute name="title">
+     <string>Lateral</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_4">
+     <item row="0" column="0">
+      <widget class="QTreeWidget" name="tree_lateral">
+       <column>
+        <property name="text">
+         <string>Parameters</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Reliability_F (%)</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Reliability_R (%)</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="vertical">
+    <attribute name="title">
+     <string>Vertical</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_5">
+     <item row="0" column="0">
+      <widget class="QTreeWidget" name="tree_vertical">
+       <column>
+        <property name="text">
+         <string>Parameters</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Reliability_F (%)</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Reliability_R (%)</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="steer">
+    <attribute name="title">
+     <string>Steer</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_6">
+     <item row="0" column="0">
+      <widget class="QTreeWidget" name="tree_steer">
+       <column>
+        <property name="text">
+         <string>Parameters</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Reliability_F (%)</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Reliability_R (%)</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="roll">
+    <attribute name="title">
+     <string>Roll</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_7">
+     <item row="0" column="0">
+      <widget class="QTreeWidget" name="tree_roll">
+       <column>
+        <property name="text">
+         <string>Parameters</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Reliability_F (%)</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Reliability_R (%)</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>39</y>
+     <width>108</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+	border: 2px groove gray;
+	border-radius: 20px;
+	padding: 2px 4px;
+	color: rgb(0, 0, 0);
+	border-color: rgb(0, 100, 0);
+}</string>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>298</x>
+     <y>80</y>
+     <width>176</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Rear Suspension (%):</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Rb_F">
+   <property name="geometry">
+    <rect>
+     <x>254</x>
+     <y>80</y>
+     <width>70</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>70</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>80</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+	border: 2px groove gray;
+	border-radius: 14px;
+	padding: 2px 4px;
+	color: rgb(0, 0, 0);
+	border-color: rgb(255, 140 ,0);
+}</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>63</x>
+     <y>80</y>
+     <width>185</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Front Suspension (%):</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Rb_R">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>80</y>
+     <width>70</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>70</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>80</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+	border: 2px groove gray;
+	border-radius: 14px;
+	padding: 2px 4px;
+	color: rgb(0, 0, 0);
+	border-color: rgb(255, 140 ,0);
+}</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <action name="actSelect">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icons/images/icons/select.png</normaloff>:/icons/images/icons/select.png</iconset>
+   </property>
+   <property name="text">
+    <string>Select</string>
+   </property>
+   <property name="toolTip">
+    <string>Select to see details</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
